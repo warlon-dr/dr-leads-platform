@@ -7,7 +7,7 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
-  const { logout } = useAuth();
+  // const { logout } = useAuth();
 
   const navItems = [
     { id: 'dashboard', label: 'Dashboard' },
@@ -42,12 +42,18 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
         ))}
       </ul>
       
-      <button 
+      {/* <button 
         onClick={logout} 
         className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md transition-colors"
       >
         Logout
-      </button>
+      </button> */}
+       <span 
+        // onClick={logout} 
+        className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md transition-colors"
+      >
+        Logout
+      </span>
     </nav>
   );
 };

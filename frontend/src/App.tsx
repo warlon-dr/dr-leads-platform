@@ -11,6 +11,7 @@ function AppContent() {
   //     </div>
   //   );
   // }
+  console.log('test')
 return <Dashboard/>
   // return user ? <Dashboard /> : <AuthPage />;
 }
