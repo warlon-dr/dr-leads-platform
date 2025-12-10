@@ -23,7 +23,7 @@ const Dashboard: React.FC = () => {
   return (
     <div className="flex flex-col h-screen">
       <Navbar activeTab={activeTab} onTabChange={setActiveTab} />
-      <main className="flex-1 bg-gray-50 p-8 overflow-y-auto">
+      <main className="flex-1 bg-gray-50 overflow-y-auto">
         {renderContent()}
       </main>
     </div>

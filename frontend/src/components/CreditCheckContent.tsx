@@ -421,8 +421,8 @@ const CreditCheckContent: React.FC = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 min-h-screen -m-8 -mt-8 pt-8">
-      <div className="p-8 flex items-center justify-center min-h-screen">
+    <div className="bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 h-full">
+      <div className="p-8 flex items-center justify-center ">
         <div className="max-w-4xl w-full">
           {/* Glass Morphism Container */}
           <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl p-8">
