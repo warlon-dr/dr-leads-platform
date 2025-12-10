@@ -25,7 +25,8 @@ const DashboardContent: React.FC = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto">
+   <div className='p-8 h-full'>
+     <div className="max-w-7xl mx-auto">
       {/* Top Controls */}
       <div className="flex max-sm:flex-col max-sm:items-start items-end gap-6 mb-8">
         {/* Facebook Page Component */}
@@ -107,6 +108,7 @@ const DashboardContent: React.FC = () => {
         ))}
       </div>
     </div>
+   </div>
   );
 };
 
